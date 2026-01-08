@@ -85,7 +85,7 @@ const Navbar = () => {
           className="w-6 md:hidden"
           src={assets.menu_icon}
         />
-        {/* ------ Mobile Menu ------ */}
+        {/* ------ Mobile view menu------ */}
         <div
           className={` ${
             showMenu ? "fixed w-full " : "h-0 w-0"
