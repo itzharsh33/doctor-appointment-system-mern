@@ -39,7 +39,7 @@ const Navbar = () => {
           <hr className="border-none outline-none h-0.5 w-3/5 m-auto bg-primary hidden" />
         </NavLink>
         <a
-          href="https://event-admin-end.vercel.app"
+          href="https://doctor-appointment-system-mern-intg.vercel.app"
           target="_blank"
           rel="noopener noreferrer"
         >
