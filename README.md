@@ -8,8 +8,26 @@ control the system through a secure dashboard.
 
 ## Live Demo
 
-Frontend (User): https://event-front-end-mauve.vercel.app
-Admin Panel: Accessible via Admin button in the navbar  
+Live link: https://event-front-end-mauve.vercel.app
+
+## 🔑 Demo Credentials
+
+Explore the application using the following demo accounts.
+
+| Role | Email | Password |
+|---|---|---|
+| Patient | `demo@gmail.com` | `demo@password` |
+| Doctor | `emily@prescripto.com` | `emily123` |
+| Admin | `admin@prescripto.com` | `qwerty123` |
+
+### How to Access
+
+1. Open the [Live Application](https://event-front-end-mauve.vercel.app).
+2. Select the appropriate role or navigate to the relevant login page.
+3. Enter the demo credentials listed above.
+4. Explore the features and dashboards available for that role.
+
+**Note:** These are demonstration accounts intended for exploring the application's functionality.
 
 ---
 
