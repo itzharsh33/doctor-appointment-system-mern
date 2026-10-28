@@ -82,10 +82,9 @@ Explore the application using the following demo accounts.
 ##  Project Structure
 
 doctor-appointment-system-mern/
-│
-├── frontend/ # Patient-facing application
-├── admin/ # Admin dashboard
-├── backend/ # REST APIs and database logic
+├── frontend/    # Patient-facing application
+├── admin/       # Admin dashboard
+├── backend/     # REST APIs and database logic
 └── README.md
 
 
