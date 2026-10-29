@@ -1,4 +1,4 @@
-Doctor Appointment & Hospital Management System (MERN)
+𝐃𝐨𝐜𝐭𝐨𝐫 𝐀𝐩𝐩𝐨𝐢𝐧𝐭𝐦𝐞𝐧𝐭 & 𝐇𝐨𝐬𝐩𝐢𝐭𝐚𝐥 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦 (𝐌𝐄𝐑𝐍)
 
 A full-stack healthcare management platform built using the MERN stack. The application enables patients to book doctor appointments, doctors to manage availability and appointments, and administrators to manage doctors and monitor platform activities.
 
@@ -8,7 +8,7 @@ The system features role-based authentication, dedicated dashboards, appointment
 
 ## Live Demo
 
-Live link: doctor-appointment-system-mern.vercel.app
+Live link: https://doctor-appointment-system-mern.vercel.app
 
 ## 🔑 Demo Credentials
 
@@ -22,7 +22,7 @@ Explore the application using the following demo accounts.
 
 ### How to Access
 
-1. Open the [Live Application](doctor-appointment-system-mern.vercel.app).
+1. Open the [Live Application](https://doctor-appointment-system-mern.vercel.app).
 2. Select the appropriate role or navigate to the relevant login page.
 3. Enter the demo credentials listed above.
 4. Explore the features and dashboards available for that role.
