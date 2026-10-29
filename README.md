@@ -1,4 +1,4 @@
-𝐃𝐨𝐜𝐭𝐨𝐫 𝐀𝐩𝐩𝐨𝐢𝐧𝐭𝐦𝐞𝐧𝐭 & 𝐇𝐨𝐬𝐩𝐢𝐭𝐚𝐥 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦 (𝐌𝐄𝐑𝐍)
+# 𝐃𝐨𝐜𝐭𝐨𝐫 𝐀𝐩𝐩𝐨𝐢𝐧𝐭𝐦𝐞𝐧𝐭 & 𝐇𝐨𝐬𝐩𝐢𝐭𝐚𝐥 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦 (𝐌𝐄𝐑𝐍)
 
 A full-stack healthcare management platform built using the MERN stack. The application enables patients to book doctor appointments, doctors to manage availability and appointments, and administrators to manage doctors and monitor platform activities.
 
@@ -31,118 +31,111 @@ Explore the application using the following demo accounts.
 
 ---
 
-Tech Stack
+## 🛠️ Tech Stack
 
-Frontend: React.js, Tailwind CSS, Axios, React Router DOM
+**Frontend:** React.js, Tailwind CSS, Axios, React Router DOM
 
-Backend: Node.js, Express.js, REST APIs
+**Backend:** Node.js, Express.js, REST APIs
 
-Database: MongoDB
+**Database:** MongoDB
 
-Authentication: JWT, Role-Based Access Control
+**Authentication:** JWT, Role-Based Access Control
 
-Payment Integration: Razorpay
+**Payment Integration:** Razorpay
 
-Deployment: Vercel, MongoDB Atlas
+**Deployment:** Vercel, MongoDB Atlas
 
-Key Features
+## ✨ Key Features
 
-Patient Module
+### Patient Module
 
-Patient registration and login
+- Patient registration and login
+- Browse available doctors
+- Booyk appointments with doctors
+- View appointment histor
+- Online payment integration using Razorpay
 
-Browse available doctors
+### Doctor Module
 
-Booyk appointments with doctors
+- Dedicated doctor dashboard
+- View and manage appointments
+- Manage availability and appointment schedules
 
-View appointment histor
+### Admin Module
 
-Online payment integration using Razorpay
+- Dedicated administrator dashboard
+- Manage doctors and user records
+- Monitor appointments
+- Manage platform activities
 
-Doctor Module
+### Authentication & Security
 
-Dedicated doctor dashboard
+- JWT-based authentication
+- Role-based authorization for patients, doctors, and admins
+- Protected application routes
 
-View and manage appointments
+### Payment Integration
 
-Manage availability and appointment schedules
+- Razorpay checkout integration for appointment payments
+- Payment confirmation through the Razorpay checkout flow
 
-Admin Module
+## 📁 Project Structure
 
-Dedicated administrator dashboard
-
-Manage doctors and user records
-
-Monitor appointments
-
-Manage platform activities
-
-Authentication & Security
-
-JWT-based authentication
-
-Role-based authorization for patients, doctors, and admins
-
-Protected application routes
-
-Payment Integration
-
-Razorpay checkout integration for appointment payments
-
-Payment confirmation through the Razorpay checkout flow
-
-Project Structure
-
+```text
 doctor-appointment-system-mern/
 ├── frontend/       # Patient-facing application
 ├── admin/          # Doctor and admin interfaces
 ├── backend/        # REST APIs and database logic
 └── README.md
+```
 
-Local Setup
+## ⚙️ Local Setup
 
-1. Clone the Repository
+### 1. Clone the Repository
 
+```bash
 git clone https://github.com/itzharsh33/doctor-appointment-system-mern.git
 cd doctor-appointment-system-mern
+```
 
-2. Backend Setup
+### 2. Backend Setup
 
+```bash
 cd backend
 npm install
 npm run dev
+```
 
 Configure the required MongoDB, JWT, and Razorpay environment variables according to the backend configuration.
 
-3. Frontend Setup
+### 3. Frontend Setup
 
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
-4. Admin Panel Setup
+### 4. Admin Panel Setup
 
+```bash
 cd admin
 npm install
 npm run dev
+```
 
-Key Learnings
+## 📈 Key Learnings
 
-Designing a full-stack MERN application with multiple user roles
+- Designing a full-stack MERN application with multiple user roles
+- Implementing JWT authentication and role-based authorization
+- Building REST APIs for appointment management
+- Integrating Razorpay checkout into a healthcare booking workflow
+- Managing MongoDB-backed application data
+- Deploying full-stack applications
 
-Implementing JWT authentication and role-based authorization
+## 👨‍💻 Author
 
-Building REST APIs for appointment management
-
-Integrating Razorpay checkout into a healthcare booking workflow
-
-Managing MongoDB-backed application data
-
-Deploying full-stack applications
-
-Author
-
-Harsh Kumar Yadav
+**Harsh Kumar Yadav**
 
 B.Tech Computer Science & Engineering
 
